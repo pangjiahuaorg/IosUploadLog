@@ -1,0 +1,23 @@
+Running altool at path '/Applications/Xcode_26.3.app/Contents/SharedFrameworks/ContentDelivery.framework/Resources/altool'...
+
+2026-05-25 07:46:12.566 ERROR: [ContentDelivery.Uploader.600001CFC4C0] 
+=======================================
+UPLOAD FAILED with 2 errors
+=======================================
+2026-05-25 07:46:12.567 ERROR: [altool.600001CFC4C0] Validation failed (409) Invalid Pre-Release Train. The train version '1.0.3' is closed for new build submissions (ID: 868065c0-121d-4166-882b-fab558125af8)
+   NSUnderlyingError : Validation failed (-19241) Invalid Pre-Release Train. The train version '1.0.3' is closed for new build submissions
+      status : 409
+      detail : Invalid Pre-Release Train. The train version '1.0.3' is closed for new build submissions
+      id : 868065c0-121d-4166-882b-fab558125af8
+      code : STATE_ERROR.VALIDATION_ERROR
+      title : Validation failed
+   iris-code : STATE_ERROR.VALIDATION_ERROR
+Validation failed (409) This bundle is invalid. The value for key CFBundleShortVersionString [1.0.3] in the Info.plist file must contain a higher version than that of the previously approved version [1.0.3]. Please find more information about CFBundleShortVersionString at https://developer.apple.com/documentation/bundleresources/information_property_list/cfbundleshortversionstring (ID: e6855300-ac90-4ceb-93d8-21b3005b91c7)
+   NSUnderlyingError : Validation failed (-19241) This bundle is invalid. The value for key CFBundleShortVersionString [1.0.3] in the Info.plist file must contain a higher version than that of the previously approved version [1.0.3]. Please find more information about CFBundleShortVersionString at https://developer.apple.com/documentation/bundleresources/information_property_list/cfbundleshortversionstring
+      status : 409
+      detail : This bundle is invalid. The value for key CFBundleShortVersionString [1.0.3] in the Info.plist file must contain a higher version than that of the previously approved version [1.0.3]. Please find more information about CFBundleShortVersionString at https://developer.apple.com/documentation/bundleresources/information_property_list/cfbundleshortversionstring
+      id : e6855300-ac90-4ceb-93d8-21b3005b91c7
+      code : STATE_ERROR.VALIDATION_ERROR
+      title : Validation failed
+   iris-code : STATE_ERROR.VALIDATION_ERROR
+Failed to upload package.
